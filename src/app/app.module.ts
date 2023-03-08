@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { EmployeeContainerComponent } from './components/employee-container/employee-container.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EmployeeComponent } from './components/employee/employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     EmployeeContainerComponent,
+    EmployeeComponent,
 
   ],
   imports: [
