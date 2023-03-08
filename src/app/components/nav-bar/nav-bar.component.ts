@@ -10,6 +10,5 @@ export class NavBarComponent {
 
   onClick() {
     this.hidden = !this.hidden;
-    console.log("Hidden = ", this.hidden)
   }
 }
