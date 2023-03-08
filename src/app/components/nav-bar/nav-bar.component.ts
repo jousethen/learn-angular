@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+  @Input() hidden: boolean = true;
 
+  onClick() {
+    this.hidden = !this.hidden;
+    console.log("Hidden = ", this.hidden)
+  }
 }
