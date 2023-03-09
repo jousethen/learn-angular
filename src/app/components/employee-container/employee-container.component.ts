@@ -15,7 +15,6 @@ export class EmployeeContainerComponent {
       this.employees = employees.users.map((u: Employee) => {
         return { firstName: u.firstName, lastName: u.lastName, email: u.email, image: u.image, company: u.company, id: u.id }
       });
-      console.log(employees)
     })
   }
 
