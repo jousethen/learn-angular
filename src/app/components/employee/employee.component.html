@@ -1,5 +1,6 @@
-<div class="bg-gray-300">
-  <img class="w-100 h-100 rounded-full" src="{{employee && employee.image}}" alt="Rounded avatar">
-  {{employee && employee.firstName}}
-
+<img class="w-75 h-75 rounded-full" src="{{employee.image}}?set=set4" alt="Rounded avatar">
+<div class="w-1/2">
+  <span> {{employee.firstName + " " + employee.lastName}} </span>
+  <span> {{employee.email}} </span>
+  <span> {{employee.company.title}}</span>
 </div>

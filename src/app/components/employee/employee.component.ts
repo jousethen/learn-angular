@@ -7,5 +7,6 @@ import { Employee } from 'src/app/interfaces/employee';
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent {
-  @Input () employee: Employee | undefined
+  @Input()
+  employee!: Employee;
 }

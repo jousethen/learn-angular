@@ -4,7 +4,7 @@ export interface Employee {
   lastName: string;
   email: string;
   image: string;
-  department: string;
+  company: Company;
 }
 
 export interface EmployeeData {
@@ -12,4 +12,8 @@ export interface EmployeeData {
   skip: number;
   total: number;
   users: Employee[];
+}
+
+interface Company {
+  title: string;
 }
