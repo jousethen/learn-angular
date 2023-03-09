@@ -6,3 +6,10 @@ export interface Employee {
   image: string;
   department: string;
 }
+
+export interface EmployeeData {
+  limit: number;
+  skip: number;
+  total: number;
+  users: Employee[];
+}
