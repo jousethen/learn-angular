@@ -1,6 +1,6 @@
-<img class="w-75 h-75 rounded-full" src="{{employee.image}}?set=set4" alt="Rounded avatar">
-<div class="w-1/2">
-  <span> {{employee.firstName + " " + employee.lastName}} </span>
-  <span> {{employee.email}} </span>
+<img class="w-1/2 h-75 rounded-full md:w-full" src="{{employee.image}}?set=set4" alt="Rounded avatar">
+<div class="w-auto flex flex-col w-full justify-center text-center">
+  <span class="text-lg font-bold"> {{employee.firstName + " " + employee.lastName}} </span>
   <span> {{employee.company.title}}</span>
+  <a class="text-blue-700 underline" href="mailto:{{employee.email}}">{{employee.email}}</a>
 </div>
