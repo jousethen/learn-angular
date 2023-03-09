@@ -1,2 +1,3 @@
-<p>employee-container works!</p>
-<employee></employee>
+<div class="flex flex-wrap">
+  <employee *ngFor="let employee of employees" [employee]="employee"></employee>
+</div>
