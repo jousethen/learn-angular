@@ -1,5 +1,5 @@
-<div class="flex flex-col m-8 md:grid md:grid-cols-3 gap-4">
+<div class="flex flex-col m-8 md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
   <employee
-    class="w-full p-8 flex flex-row items-center justify-between bg-white border border-gray-200 rounded-lg shadows md:flex-col md:p-0"
+    class="w-full max-w-sm p-8 flex flex-row items-center justify-between bg-white border border-gray-200 rounded-lg shadows md:flex-col md:p-0"
     *ngFor="let employee of employees" [employee]="employee"></employee>
 </div>
